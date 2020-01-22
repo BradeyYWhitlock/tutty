@@ -1,0 +1,46 @@
+@import '../../../styles/colors';
+@import '../../../styles/comon';
+
+.skillsPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $backgroundColor;
+    color: white;
+    flex-direction: row;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.header {
+    font-size: 50px;
+}
+
+.frontend {
+    height: 300px;
+    margin: 0px 50px;
+}
+
+.backend {
+    height: 300px;
+    margin: 0px 50px;
+}
+
+.cloud {
+    height: 300px;
+    margin: 0px 50px;
+}
+
+.mobile {
+    height: 300px;
+    margin: 0px 50px;
+}
+
+.favorite {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+}

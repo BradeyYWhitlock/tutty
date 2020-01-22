@@ -1,0 +1,9 @@
+// Color Variables
+
+// UI Colors
+$backgroundColor: #191919;
+
+// Exporting to be used in code if necessary
+:export {
+    backgroundColor: $backgroundColor;
+}
