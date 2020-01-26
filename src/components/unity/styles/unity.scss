@@ -1,0 +1,79 @@
+.unityPage {
+    display: flex;
+    background-color: 222222;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.unityMembers {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
+
+.unityMember {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-size: 40px;
+    height: 250px;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unityDanPic {
+    border: 1px solid white;
+    height: 250px;
+    width: 250px;
+    background: url(https://cdn.discordapp.com/attachments/584412654257307666/669245679251619880/tutty_dan.png) no-repeat;
+    background-size: 100%;
+}
+
+.unityPicApallo {
+    border: 1px solid white;
+    height: 250px;
+    width: 250px;
+    background: url(https://cdn.discordapp.com/attachments/584412654257307666/669245674478632960/tutty_apollo.png) no-repeat;
+    background-size: 100%;
+}
+
+.unityPicMalf {
+    border: 1px solid white;
+    height: 250px;
+    width: 250px;
+    background: url(https://cdn.discordapp.com/attachments/584412654257307666/669245682229444628/tutty_malf.png) no-repeat;
+    background-size: 100%;
+}
+
+.unityPicRyan {
+    border: 1px solid white;
+    height: 250px;
+    width: 250px;
+    background: url(https://cdn.discordapp.com/attachments/584412654257307666/669245686188998661/tutty_ryan.png) no-repeat;
+    background-size: 100%;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    width: 250px;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.socialLinks {
+    width: 65px;
+    text-decoration: none;
+    color: white;
+}
+
+.teamUnity {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
