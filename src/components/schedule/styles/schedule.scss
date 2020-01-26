@@ -1,0 +1,64 @@
+.schedulePage {
+    display: flex;
+    background-color: 222222;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.scheduleDescription {
+    font-size: 40px;
+    width: 60%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.schedule {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.tableRowSchedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    font-size: 30px;
+}
+
+.tableCellSchedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.topLeft {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #222222;
+    border-left: 1px solid #222222;
+}
+
+.removeTop {
+    border-top: 1px solid #222222;
+}
+
+.topRight {
+    border-right: 1px solid #222222;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #222222;
+    border-left: 1px solid white;
+}
+
+.removeLeft {
+    border-left: 1px solid #222222;
+}
+
+.removeRight {
+    border-right: 1px solid #222222;
+}
