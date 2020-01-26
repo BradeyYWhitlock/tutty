@@ -3,8 +3,6 @@ import { Component, ReactNode } from 'react';
 import { RouteComponentProps, Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import Routes, { AppRoute } from './routes/Routes';
 
-import Header from './components/header/Header'
-
 import './common/styles/main.scss'
 
 
