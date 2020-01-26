@@ -1,0 +1,41 @@
+.homePage {
+    display: flex;
+    background-color: 222222;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.homePageBox {
+    display: flex;
+    margin: 30px;
+    font-size: 40px;
+    height: 200px;
+    width: 350px;
+    background: #f4be2e;
+    background: linear-gradient(90deg, #f4be2e 0%, #ef5a4e 100%);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.homePageLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeDescription {
+    font-size: 40px;
+    width: 60%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.tutty {
+    font-size: 100px;
+    margin-bottom: 20px;
+}

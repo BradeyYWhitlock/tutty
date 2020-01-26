@@ -1,8 +1,41 @@
 body {
-    position: absolute;
     margin: 0px;
-    overflow: hidden;
-    top: 0px;
-    bottom: 0px;
     width: 100%;
+    font-family: 'Tutty';
+}
+
+@font-face {
+    font-family: 'Tutty';
+    src: url('../../assets/tutty.otf') format('opentype');
+  }
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    height: 55px;
+    background: #f4be2e;
+    background: linear-gradient(90deg, #f4be2e 0%, #ef5a4e 100%);
+    font-size: 30px;
+}
+
+.navItem {
+    width: 130px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.underConstruction {
+    display: flex;
+    font-size: 20px;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #487EF7;
+    text-transform: uppercase;
 }

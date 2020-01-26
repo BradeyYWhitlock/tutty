@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Component, ReactNode } from 'react';
 import { RouteComponentProps, Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import Routes, { AppRoute } from './routes/Routes';
+import Header from './common/components/Header';
 
 import './common/styles/main.scss'
 
@@ -14,7 +15,7 @@ class App extends Component<RouteComponentProps> {
     public render(): ReactNode {
         return (
             <Fragment>
-                {/* <Header /> */}
+                <Header />
                 <div className="appContentContainer">
                     <Switch>
                         {Routes.map(
