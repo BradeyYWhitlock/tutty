@@ -1,0 +1,38 @@
+.resultsPage {
+    display: flex;
+    background-color: 222222;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.resultsDescription {
+    font-size: 40px;
+    width: 60%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.results {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.tableRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    font-size: 30px;
+}
+
+.tableCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    border: 1px solid white;
+}
