@@ -3,6 +3,7 @@ import { Component, ReactNode } from 'react';
 import { RouteComponentProps, Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import Routes, { AppRoute } from './routes/Routes';
 import Header from './common/components/Header';
+import Firebase from './Services/Firebase';
 
 import './common/styles/main.scss'
 
@@ -10,6 +11,7 @@ import './common/styles/main.scss'
 class App extends Component<RouteComponentProps> {
     constructor(props: RouteComponentProps) {
         super(props);
+        Firebase.init();
     }
 
     public render(): ReactNode {
